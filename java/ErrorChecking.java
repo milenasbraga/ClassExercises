@@ -24,8 +24,7 @@ public class ErrorChecking {
         
         for (int i = 0; i < qtdBits; i++)
         {
-            String oneBit = seqBits.substring(i, i+1);
-            //bits.add(i, oneBit);
+            String oneBit = seqBits.substring(i, i+1)
             if (Integer.parseInt(oneBit) == 1)
             {
                 qtdUm++;
